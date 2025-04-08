@@ -64,11 +64,11 @@ export default function EmployeePagination() {
                     </table>
 
                     <div style={{ marginTop: '20px', display: 'flex', alignItems: 'center' }}>
-                        <button onClick={handlePrevious} disabled={currentPage === 1} style={buttonStyle}>
+                        <button onClick={handlePrevious}  style={buttonStyle}>
                             Previous
                         </button>
                         <span style={{ margin: '0 10px' }}>Page {currentPage}</span>
-                        <button onClick={handleNext} disabled={currentPage === totalPages} style={buttonStyle}>
+                        <button onClick={handleNext} style={buttonStyle}>
                             Next
                         </button>
                     </div>
